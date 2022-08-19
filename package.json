@@ -1,0 +1,23 @@
+{
+  "name": "crud_application",
+  "version": "1.0.0",
+  "description": "Crud Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js"
+  },
+  "engines": {
+
+    "node": "16.13.2"
+  },
+  "author": "Nagendra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
